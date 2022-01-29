@@ -10,7 +10,7 @@ api_secret_key = 'Your API Secret Key'
 api = tradeapi.REST(
     base_url = base_url,
     key_id = api_key_id,
-    secret_key = api_secret
+    secret_key = api_secret_key
 )
 
 #Buy a TSLA Stock
